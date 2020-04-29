@@ -1,0 +1,26 @@
+# File name: milAlgorithm.txt
+# Name: Erik Briganty
+# Date: 04/26/20
+
+define question 1-5 functions
+    print an intro to the question
+    print the question
+    ask user for the answer
+    if the user gets it wrong print message
+    if the user is correct return 100 points
+    verify all inputs are correct
+
+define main function
+    print welcome message asking user for name
+    verify input is valid
+
+    execute each function printing total score after each question
+
+    determine whether highscore.txt exists
+    if it doesn't create new file and write the user name and score
+
+    if it does determine if the new score >= old score
+    if it is write the new score and user
+
+    ask if the user wants to play again
+    if yes, restart the game

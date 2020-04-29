@@ -1,0 +1,6 @@
+Mickey,Mouse 90.0
+Jane,Doe     50.0
+Minnie,Mouse 95.0
+Donald,Duck  80.0
+Daffy,Duck   70.0
+erik briganty 100.0

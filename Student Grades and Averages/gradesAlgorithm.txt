@@ -1,0 +1,74 @@
+# File name: gradesAlgorithm.txt
+# Name: Erik Briganty
+# Date: 04/24/20
+
+# Grades
+# a) Write a program that reads in the names
+# and test grades of 5 students from the data file “grades.txt”.
+# Use the split function to separate the names
+# and test scores and convert the test scores to numeric values.
+
+# b) Calculate the average of the test scores.
+
+# c) Display the names, test scores and the average on the screen as follows:
+# Name Grade
+# ---------------------
+# Mickey Mouse 90.0
+# Jane Doe 50.0
+# Minnie Mouse 95.0
+# Donald Duck 80.0
+# Daffy Duck 70.0
+# Average Grade: 77.0
+
+# d) Prompt the user for a new first name, last name and grade.
+
+# e) Append the files “grades.txt” with the new data in the same format as the existing records.
+
+import stats for avg
+import re to extract numbers from file
+
+define file_info
+    open grades.txt to read
+    read grades.txt
+
+    print header (Names & Grade)
+    print spacer (-----)
+
+    strip \n from lines
+
+    extract numbers from document
+    convert to float
+    calculate average
+
+    print average
+
+    close file
+
+define main
+    execute file_info
+
+    open file to append
+
+    ask user to add new student to file
+
+    if yes
+        verify user inputs letters for name
+
+        verify user inputs grade between 0-100
+
+        write user input to file
+
+        ask user to continue
+
+        if yes
+            continue
+
+        if no
+            close file
+            execute file_info for new list & average
+            exit program
+
+        else
+            verify user input y or n
+
+

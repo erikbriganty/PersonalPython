@@ -1,0 +1,43 @@
+# File name: exemptAlgorithm.py
+# Name: Erik Briganty
+# Date: 04/07/2020
+
+# **** Program Description ****
+# You will be writing a program to determine whether or not a student is exempt from the final exam in COP1000C.
+# Your program should do the following:
+# Prompt the user for a student’s average and number of days missed.
+# Input Validation:
+# Average must be between 0 and 100
+# Number of days missed cannot be less than 0.
+# Be sure to validate each value separately!
+# Use the following conditions to display a message indicating whether or not a student is exempt from the final exam.
+# If exempt, indicate why.
+# Average is at least 96
+# Average is at least 93 and days missed are less than 3
+# Average is at least 90 and student has perfect attendance
+# **** END ****
+
+# Prompt User (input)
+What is the students average? ___
+How many number of days missed? ___
+
+# Verify input
+If the average is less than 0 and more than 100
+    Display error message.
+Else average is between 0 and 100
+    Continue program.
+
+If the number of days is less than 0
+    Display error message.
+Else the number of days is 0 or greater
+    Continue program.
+
+# Display exempt or not exempt
+If the average is 96 or greater
+    Display exempt message
+Else if average is at least 93 with less than 3 days missed
+    Display exempt message
+Else if average is at least 90 with 0 days missed
+    Display exempt message
+Else display not exempt message
+
